@@ -5,13 +5,7 @@ export default defineConfig({
   base: "/",
   title: "VitePress",
   description: "Just playing around.",
-  head: [
-    [
-      "link",
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
-    ],
-    // would render: <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  ],
+  head: [["link", { rel: "", href: "", crossorigin: "" }]],
   themeConfig: {
     nav: [
       { text: "Guide", link: "/guide/" },

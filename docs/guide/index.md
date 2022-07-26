@@ -1,8 +1,1 @@
----
-title: Configuring Vite
----
-
-# Configuring Vite
-
-## 2
-
+# 我是guide
