@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "zh-CN",
   appearance: true,
-  base: "/",
+  base: "/vitepress-template/",
   title: "VitePress",
   description: "Just playing around.",
   head: [["link", { rel: "", href: "", crossorigin: "" }]],
