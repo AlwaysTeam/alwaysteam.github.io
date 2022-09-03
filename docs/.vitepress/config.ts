@@ -2,44 +2,32 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "zh-CN",
   appearance: true,
-  base: "/vitepress-template/",
-  title: "VitePress",
+  base: "/",
+  title: "Always-Team",
   description: "Just playing around.",
   head: [["link", { rel: "", href: "", crossorigin: "" }]],
   themeConfig: {
     nav: [
-      { text: "Guide", link: "/guide/" },
-      { text: "Config", link: "/config/" },
       {
-        text: "友链",
+        text: "guide",
         items: [
-          { text: "天天起始页", link: "https://www.zhangsifan.com" },
-          { text: "关于", link: "/about" },
+          {
+            text: "Vue3-ElementPlus-Ts-Template",
+            link: "https://always-team.github.io/vue3-elementplus-ts-template/",
+          },
+          {
+            text: "VitePress-Template",
+            link: "https://always-team.github.io/vitepress-template/",
+          },
         ],
       },
+      { text: "About", link: "/about" },
     ],
-    sidebar: {
-      "/guide/": [
-        {
-          text: "Guide",
-          collapsible: true,
-          collapsed: false,
-          items: [{ text: "Index", link: "/guide/" }],
-        },
-      ],
-      "/config/": [
-        {
-          text: "Config",
-          collapsible: true,
-          collapsed: false,
-          items: [{ text: "Index", link: "/config/" }],
-        },
-      ],
-    },
-    socialLinks: [{ icon: "github", link: "https://github.com/jcalways" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/Always-Team" }],
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      message:
+        "Released under the <a href='https://opensource.org/licenses/MIT' target='_blank' style='color: #42b883'>MIT License.</a>",
+      copyright: "Power By VitePress",
     },
   },
 });

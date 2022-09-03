@@ -6,10 +6,11 @@
   "scripts": {
     "docs:dev": "vitepress dev docs --port 4000",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "update":"yarn upgrade-interactive --latest"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.9",
-    "vue": "^3.2.37"
+    "vitepress": "1.0.0-alpha.13",
+    "vue": "^3.2.38"
   }
 }
