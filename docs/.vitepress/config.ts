@@ -4,7 +4,7 @@ export default defineConfig({
   appearance: true,
   base: "/",
   title: "Always-Team",
-  description: "Just playing around.",
+  description: "Always-Team",
   head: [["link", { rel: "", href: "", crossorigin: "" }]],
   themeConfig: {
     nav: [
