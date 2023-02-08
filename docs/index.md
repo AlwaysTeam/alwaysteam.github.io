@@ -16,9 +16,15 @@ hero:
 
 features:
   - icon: 🛠️
-    title: VitePress
-    details: VitePress-Template
-  - icon: 🛠️
     title: Vue3
-    details: Vue3-ElementPlus-Ts-Template
+    details: Vue3+Element_Plus+TypeScript模板
+  - icon: 🛠️
+    title: VitePress
+    details: VitePress模板
+  - icon: 🛠️
+    title: Nuxt
+    details: Nuxt模板
+  - icon: 🛠️
+    title: Express
+    details: Express模板
 ---
