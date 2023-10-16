@@ -18,3 +18,5 @@ coverage
 .vscode/*
 !.vscode/extensions.json
 
+.vitepress/dist
+.vitepress/cache
