@@ -23,10 +23,10 @@ features:
   - icon: 🛠️
     title: Nuxt
     details: Nuxt模板
-    link: 
+    link: https://github.com/Always-Team/nuxt-template
   - icon: 🛠️
     title: Express
     details: Express模板
-    link: 
+    link: https://github.com/Always-Team/express-template
 ---
 
