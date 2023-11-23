@@ -5,6 +5,8 @@ export default defineConfig({
   title: "Always-Team",
   description: "Always-Team description",
   cleanUrls: true,
+  lang: "zh-CN",
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
