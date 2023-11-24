@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://team.zhangsifan.com/sitemap.xml

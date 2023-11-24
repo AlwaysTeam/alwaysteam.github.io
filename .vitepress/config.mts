@@ -6,7 +6,9 @@ export default defineConfig({
   description: "Always-Team description",
   cleanUrls: true,
   lang: "zh-CN",
-  
+  sitemap: {
+    hostname: 'https://team.zhangsifan.com'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
