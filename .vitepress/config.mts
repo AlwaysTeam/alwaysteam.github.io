@@ -40,6 +40,7 @@ export default defineConfig({
           items: [
             { text: "Vue", link: "/guide/template/vue" },
             { text: "VitePress", link: "/guide/template/vitepress" },
+            { text: "hexo", link: "/guide/template/hexo" },
           ],
         },
       ],

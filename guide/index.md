@@ -1,1 +1,3 @@
-index
+# Guide
+
+## Getting Started

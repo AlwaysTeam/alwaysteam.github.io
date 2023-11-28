@@ -45,4 +45,9 @@ features:
     title: Electron
     details: 使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序。
     link: https://github.com/Always-Team/Electron-template
+  - icon:
+      src: https://hexo.io/icon/favicon-196x196.png
+    title: Hexo
+    details: 快速、简洁且高效的博客框架。
+    link: https://github.com/Always-Team/Hexo-template
 ---
