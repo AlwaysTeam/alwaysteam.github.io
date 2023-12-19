@@ -2,28 +2,36 @@
 
 > VitePress 模板
 
+## Features
+
 ## 文档
 
-[VitePress文档](https://vitepress.vuejs.org/)
+[VitePress 文档](https://vitepress.vuejs.org/)
 
-## 快速上手
+## Quickstart
 
 安装依赖:
 
 ```bash
-yarn
+# Node.js >= 18.0.0 is required.
+yarn install
 ```
 
 运行项目
 
 ```bash
-yarn run docs:dev 
+yarn run docs:dev
 ```
 
 打包项目
+
 ```bash
 yarn run docs:build
 ```
+
+## Start On Web IDE
+
+[https://github.dev/Always-Team/always-team.github.io](https://github.dev/Always-Team/always-team.github.io)
 
 ## Contributors ✨
 
