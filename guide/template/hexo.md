@@ -5,5 +5,6 @@
 > 本模版 基于 [Butterfly 主题](https://github.com/jerryc127/hexo-theme-butterfly) 搭建
 
 ## 模版示例
-
+<ClientOnly>
 <iframe src="//team.zhangsifan.com/hexo-template/" style="border: none; width: 100%; height: 768px" ></iframe>
+</ClientOnly>
