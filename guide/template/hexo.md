@@ -25,12 +25,9 @@
 
 <script setup>
 import { ref } from 'vue'
-
 const flag = ref(false)
 
-
-setTimeout(() => {
-  flag.value = true
-}, 500)
-
+onMounted(() => {
+    flag.value = true
+})
 </script>
