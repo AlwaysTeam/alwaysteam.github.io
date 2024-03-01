@@ -6,4 +6,4 @@
 
 ## 模版示例
 
-<iframe src="//team.zhangsifan.com/hexo-template/" width="100%" height="768px" frameborder="0" ></iframe>
+<iframe src="//team.zhangsifan.com/hexo-template/" style="border: none; width: 100%; height: 768px" ></iframe>
