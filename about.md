@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 <script setup>
 import {
@@ -29,7 +29,8 @@ const members = [
       Our Team
     </template>
     <template #lead>
-      Welcome to our team, some of whom have chosen to be featured below.
+      The development of VitePress is guided by an international
+      team, some of whom have chosen to be featured below.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
