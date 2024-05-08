@@ -12,7 +12,6 @@ const flag = ref(false)
 onMounted(() => {
    setTimeout(() => {
       flag.value = true
-    }, 1000)
-    console.log(123)
+    }, 300)
 })
 </script>
