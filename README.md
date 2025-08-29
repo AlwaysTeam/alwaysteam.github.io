@@ -31,7 +31,7 @@ yarn run docs:build
 
 ## Start On Web IDE
 
-[https://github.dev/Always-Team/always-team.github.io](https://github.dev/Always-Team/always-team.github.io)
+[https://github.dev/AlwaysTeam/AlwaysTeam.github.io](https://github.dev/AlwaysTeam/AlwaysTeam.github.io)
 
 ## Contributors ✨
 
