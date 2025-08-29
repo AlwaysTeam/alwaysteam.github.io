@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "AlwaysTeam",
+  titleTemplate: ":title - AlwaysTeam",
   description: "AlwaysTeam description",
   cleanUrls: true,
   lang: "zh-CN",
@@ -10,6 +11,14 @@ export default defineConfig({
     hostname: "https://team.zhangsifan.com",
   },
   head: [
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "AlwaysTeam,JCAlways,Vue3,ElementPlus,TypeScript,Template,Tauri,Hexo",
+      },
+    ],
     [
       "link",
       {
@@ -31,20 +40,6 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "Home", link: "/" },
-      // {
-      //   text: "guide",
-      //   items: [
-      //     {
-      //       text: "Vue3-ElementPlus-Ts-Template",
-      //       link: "https://AlwaysTeam.github.io/vue3-elementplus-ts-template/",
-      //     },
-      //   ],
-      // },
-      { text: "Guide", link: "/guide/" },
-      { text: "About", link: "/about" },
-    ],
     socialLinks: [
       { icon: "github", link: "https://github.com/AlwaysTeam" },
       { icon: "gitlab", link: "https://gitlab.com/AlwaysTeam" },
@@ -65,15 +60,65 @@ export default defineConfig({
           ],
         },
       ],
+      "/en/guide/": [
+        {
+          text: "Guide",
+          items: [{ text: "Getting Started", link: "/en/guide/" }],
+        },
+        {
+          text: "Template",
+          items: [
+            { text: "Vue", link: "/en/guide/template/vue" },
+            { text: "VitePress", link: "/en/guide/template/vitepress" },
+            { text: "Hexo", link: "/en/guide/template/hexo" },
+          ],
+        },
+      ],
     },
-    footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2025-present AlwaysTeam",
+  },
+  locales: {
+    root: {
+      label: "中文",
+      lang: "zh-CN",
+      description: "开源项目模板和开发资源",
+      themeConfig: {
+        nav: [
+          { text: "首页", link: "/" },
+          { text: "指南", link: "/guide/" },
+          { text: "关于", link: "/about" },
+        ],
+        editLink: {
+          pattern:
+            "https://github.com/AlwaysTeam/AlwaysTeam.github.io/blob/master/:path",
+          text: "在 GitHub 上编辑此页面",
+        },
+        footer: {
+          message: "基于 MIT 许可发布",
+          copyright: "版权所有 © 2025-至今 AlwaysTeam",
+        },
+      },
     },
-    editLink: {
-      pattern:
-        "https://github.com/AlwaysTeam/AlwaysTeam.github.io/blob/master/:path",
-      text: "在 GitHub 上编辑此页面",
+    en: {
+      label: "English",
+      lang: "en",
+      link: "/en/",
+      description: "Open source project templates and development resources",
+      themeConfig: {
+        nav: [
+          { text: "Home", link: "/en/" },
+          { text: "Guide", link: "/en/guide/" },
+          { text: "About", link: "/en/about" },
+        ],
+        editLink: {
+          pattern:
+            "https://github.com/AlwaysTeam/AlwaysTeam.github.io/blob/master/:path",
+          text: "Edit this page on GitHub",
+        },
+        footer: {
+          message: "Released under the MIT License.",
+          copyright: "Copyright © 2025-present AlwaysTeam",
+        },
+      },
     },
   },
 });

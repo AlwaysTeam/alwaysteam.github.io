@@ -13,7 +13,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/40380551?v=4',
     name: 'JCAlways',
-    title: '创造者',
+    title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/JCAlways' },
       { icon: 'gitlab',link: 'https://gitlab.com/JCAlways' },
@@ -26,10 +26,11 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      我们的团队
+      Our Team
     </template>
     <template #lead>
-      AlwaysTeam的开发由一个中国团队指导，其中一些人选择成为下面展示的团队。
+      The development of AlwaysTeam is guided by a Chinese
+      team, some of whom have chosen to be featured below.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers

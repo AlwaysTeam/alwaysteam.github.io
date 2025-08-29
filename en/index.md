@@ -4,51 +4,51 @@ layout: home
 title: Home
 
 hero:
-  name: 欢迎
-  text: 访问 AlwaysTeam
-  tagline: 去仓库检查开源项目
+  name: Welcome
+  text: To AlwaysTeam
+  tagline: Go to the warehouse to check open source projects
   actions:
     - theme: brand
-      text: 开始使用
-      link: /guide/
+      text: Get Started
+      link: /en/guide/
     - theme: alt
-      text: 在GitHub上查看
+      text: View on GitHub
       link: https://github.com/AlwaysTeam
 
 features:
   - icon:
       src: https://vuejs.org/logo.svg
     title: Vue3
-    details: 渐进式 JavaScript 框架
+    details: Progressive JavaScript Framework
     link: https://github.com/AlwaysTeam/vue3-elementplus-ts-template
   - icon:
       src: https://vitepress.dev/vitepress-logo-mini.svg
     title: VitePress
-    details: VitePress 是一款静态站点生成器(SSG)，专为构建快速、以内容为中心的网站而设计。
+    details: VitePress is a Static Site Generator (SSG) designed for building fast, content-centric websites.
     link: https://github.com/AlwaysTeam/vitepress-template
   - icon:
       src: https://nuxt.com/icon.png
     title: Nuxt
-    details: Nuxt 是一个免费的开源框架，以直观且可扩展的方式使用Vue.js创建类型安全、高性能和生产级的全栈 Web 应用程序和网站。
+    details: Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.
     link: https://github.com/AlwaysTeam/nuxt-template
   - icon:
       src: https://expressjs.com/images/favicon.png
     title: Express
-    details: 适用于Node.js的快速、无主见、简约的 Web 框架。
+    details: Fast, unopinionated, minimalist web framework for Node.js.
     link: https://github.com/AlwaysTeam/express-template
   - icon:
       src: https://tauri.app/favicon.svg
     title: Tauri
-    details: 构建跨平台的快速、安全、前端隔离应用。
+    details: Build smaller, faster, and more secure desktop applications with a web frontend.
     link: https://github.com/AlwaysTeam/tauri-template
   - icon:
       src: https://www.electronjs.org/assets/img/favicon.ico
     title: Electron
-    details: 使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序。
+    details: Build cross-platform desktop apps with JavaScript, HTML, and CSS.
     link: https://github.com/AlwaysTeam/Electron-template
   - icon:
       src: https://hexo.io/icon/favicon-196x196.png
     title: Hexo
-    details: 快速、简洁且高效的博客框架。
+    details: A fast, simple & powerful blog framework.
     link: https://github.com/AlwaysTeam/Hexo-template
 ---
