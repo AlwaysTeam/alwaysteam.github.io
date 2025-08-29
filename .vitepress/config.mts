@@ -80,7 +80,7 @@ export default defineConfig({
     root: {
       label: "中文",
       lang: "zh-CN",
-      description: "开源项目模板和开发资源",
+      description: "AlwaysTeam description",
       themeConfig: {
         nav: [
           { text: "首页", link: "/" },
@@ -102,7 +102,7 @@ export default defineConfig({
       label: "English",
       lang: "en",
       link: "/en/",
-      description: "Open source project templates and development resources",
+      description: "AlwaysTeam description",
       themeConfig: {
         nav: [
           { text: "Home", link: "/en/" },
