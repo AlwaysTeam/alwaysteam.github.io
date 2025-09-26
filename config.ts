@@ -16,11 +16,11 @@ export default defineAdditionalConfig({
     sidebar: {
       "/guide/": [
         {
-          text: "Guide",
+          text: "指南",
           items: [{ text: "关于", link: "/guide/" }],
         },
         {
-          text: "Template",
+          text: "模版",
           items: [
             { text: "Vue", link: "/guide/template/vue" },
             { text: "VitePress", link: "/guide/template/vitepress" },

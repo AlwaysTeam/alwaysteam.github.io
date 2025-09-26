@@ -16,7 +16,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "AlwaysTeam,JCAlways,Vue3,ElementPlus,TypeScript,Template,Tauri,Hexo",
+          "Always Team,JCAlways,Vue3,ElementPlus,TypeScript,Template,Tauri,Hexo",
       },
     ],
     [

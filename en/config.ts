@@ -41,5 +41,8 @@ export default defineAdditionalConfig({
     lastUpdated: {
       text: "Last updated",
     },
+    outline: {
+      label: "On this page",
+    },
   },
 });
