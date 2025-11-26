@@ -27,6 +27,63 @@ export default defineAdditionalConfig({
             { text: "hexo", link: "/guide/template/hexo" },
           ],
         },
+        {
+          text: "地图",
+          items: [
+            {
+              text: "高德地图",
+              items: [
+                {
+                  text: "地图选点",
+                  link: "/guide/map/amap/point",
+                },
+                {
+                  text: "车辆轨迹",
+                  link: "/guide/map/amap/car_track",
+                },
+              ],
+            },
+            {
+              text: "腾讯地图",
+              items: [
+                {
+                  text: "地图选点",
+                  link: "/guide/map/tencent/point",
+                },
+                {
+                  text: "车辆轨迹",
+                  link: "/guide/map/tencent/car_track",
+                },
+                {
+                  text: "路径规划",
+                  link: "/guide/map/tencent/planning",
+                },
+              ],
+            },
+            {
+              text: "百度地图",
+              items: [
+                {
+                  text: "地图选点",
+                  link: "/guide/map/baidu/point",
+                },
+              ],
+            },
+            {
+              text: "天地图",
+              items: [
+                {
+                  text: "地图选点",
+                  link: "/guide/map/tianditu/point",
+                },
+                {
+                  text: "车辆轨迹",
+                  link: "/guide/map/tianditu/car_track",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     editLink: {

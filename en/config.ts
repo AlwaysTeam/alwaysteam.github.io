@@ -27,6 +27,63 @@ export default defineAdditionalConfig({
             { text: "Hexo", link: "/en/guide/template/hexo" },
           ],
         },
+        {
+          text: "Map",
+          items: [
+            {
+              text: "Amap",
+              items: [
+                {
+                  text: "Map Point Selection",
+                  link: "/en/guide/map/amap/point",
+                },
+                {
+                  text: "Vehicle Track",
+                  link: "/en/guide/map/amap/car_track",
+                },
+              ],
+            },
+            {
+              text: "Tencent Map",
+              items: [
+                {
+                  text: "Map Point Selection",
+                  link: "/en/guide/map/tencent/point",
+                },
+                {
+                  text: "Vehicle Track",
+                  link: "/en/guide/map/tencent/car_track",
+                },
+                {
+                  text: "Route Planning",
+                  link: "/en/guide/map/tencent/planning",
+                },
+              ],
+            },
+            {
+              text: "Baidu Map",
+              items: [
+                {
+                  text: "Map Point Selection",
+                  link: "/en/guide/map/baidu/point",
+                },
+              ],
+            },
+            {
+              text: "Tianditu Map",
+              items: [
+                {
+                  text: "Map Point Selection",
+                  link: "/en/guide/map/tianditu/point",
+                },
+                {
+                  text: "Vehicle Track",
+                  link: "/en/guide/map/tianditu/car_track",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     editLink: {
